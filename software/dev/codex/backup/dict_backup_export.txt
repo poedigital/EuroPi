@@ -1,0 +1,211 @@
+{
+    "equation_dict": [
+        {
+            "id": 1,
+            "title": "SineOsc",
+            "equation": "sin(2 \u03c0 f \u22c5 t)\n",
+            "vars": [
+                "f",
+                "t"
+            ],
+            "settings": {},
+            "byte": [
+                "\u22c5",
+                "\u03c0"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "SawOsc",
+            "equation": "2 \u22c5 (t \u22c5 f \u2212 \u230a 0.5 + t \u22c5 f \u230a )",
+            "vars": [],
+            "settings": {},
+            "byte": [
+                "\u230a",
+                "\u2212",
+                "\u22c5"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "SquareOsc",
+            "equation": "1.0\u00a0if\u00a0sin ( 2 \u03c0 f \u22c5 t ) \u2265 0 \u2192 \u22121.0",
+            "vars": "",
+            "settings": {},
+            "byte": [
+                "\u2212",
+                "\u22c5",
+                "\u03c0",
+                "\u2265",
+                "\u2192"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "DoubleHarmonic",
+            "equation": "A sin ( 2 \u03c0  f t ) + B sin ( 4 \u03c0 f t )\n\n\n\n\n\n\n",
+            "vars": [],
+            "settings": {},
+            "byte": [
+                "\u03c0"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Harm Series",
+            "equation": "\u03a3 (A/n)\u22c5sin(2\u03c0nft)\u00a0for n = 1\u00a0to\u00a0N       ",
+            "vars": [],
+            "settings": {},
+            "byte": [
+                "\u03c0",
+                "\u03a3",
+                "\u22c5"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Polarizer",
+            "equation": "a \u22c5 b + c",
+            "vars": [
+                "a",
+                "b",
+                "c"
+            ],
+            "settings": {},
+            "byte": [
+                "\u22c5"
+            ]
+        }
+    ],
+    "byte_array_dict": {
+        "\u03c0": {
+            "name": "Byte_\u03c0",
+            "size": 8,
+            "data": [
+                255,
+                36,
+                36,
+                36,
+                36,
+                36,
+                36,
+                34
+            ]
+        },
+        "\u230b": {
+            "name": "Byte_\u230b",
+            "size": 8,
+            "data": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                28
+            ]
+        },
+        "\u230a": {
+            "name": "Byte_\u230a",
+            "size": 8,
+            "data": [
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                56
+            ]
+        },
+        "\u22c5": {
+            "name": "Byte_\u22c5",
+            "size": 5,
+            "data": [
+                4,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "\u2212": {
+            "name": "Byte_\u2212",
+            "size": 5,
+            "data": [
+                0,
+                0,
+                31,
+                0,
+                0
+            ]
+        },
+        "\u2192": {
+            "name": "Byte_\u2192",
+            "size": 7,
+            "data": [
+                0,
+                4,
+                6,
+                127,
+                6,
+                4,
+                0
+            ]
+        },
+        "\u2265": {
+            "name": "Byte_\u2265",
+            "size": 7,
+            "data": [
+                48,
+                12,
+                2,
+                12,
+                48,
+                0,
+                62
+            ]
+        },
+        "\u2211": {
+            "size": 9,
+            "data": [
+                124,
+                64,
+                32,
+                16,
+                8,
+                16,
+                32,
+                64,
+                124
+            ]
+        },
+        "\u03a3": {
+            "size": 7,
+            "data": [
+                60,
+                32,
+                16,
+                8,
+                16,
+                32,
+                60
+            ]
+        },
+        "test": {
+            "size": 8,
+            "data": [
+                0,
+                0,
+                16,
+                80,
+                4,
+                112,
+                0,
+                0
+            ]
+        }
+    }
+}

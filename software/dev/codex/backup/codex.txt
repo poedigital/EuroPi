@@ -1,0 +1,91 @@
+{
+    "equation_dict": [
+        {
+            "id": 1,
+            "title": "SineOsc",
+            "equation": "x(t)= sin(2\u03c0ft)\n",
+            "var": [],
+            "settings": {},
+            "byte": [
+                "\u03c0"
+            ],
+            "vars": [
+                "x",
+                "sin",
+                "t"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Logistic",
+            "equation": "x(n+1) = r*x(n)*(1-x(n))",
+            "var": [],
+            "settings": {},
+            "byte": [],
+            "vars": [
+                "r",
+                "x",
+                "n"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "test",
+            "equation": "test",
+            "vars": [],
+            "settings": {},
+            "byte": []
+        }
+    ],
+    "byte_array_dict": {
+        "\u03c0": {
+            "size": 8,
+            "data": [
+                0,
+                255,
+                36,
+                36,
+                36,
+                36,
+                36,
+                34
+            ]
+        },
+        "none": {
+            "size": 7,
+            "data": [
+                28,
+                34,
+                69,
+                73,
+                81,
+                34,
+                28
+            ]
+        },
+        "none2": {
+            "size": 6,
+            "data": [
+                12,
+                18,
+                37,
+                41,
+                18,
+                12
+            ]
+        },
+        "test": {
+            "size": 8,
+            "data": [
+                0,
+                0,
+                32,
+                8,
+                32,
+                8,
+                32,
+                0
+            ]
+        }
+    }
+}
